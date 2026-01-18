@@ -1,0 +1,8 @@
+name: zBoard
+version: '1.0'
+main: hu.zsomborr.board.zBoard
+api-version: '1.13'
+softdepend: [PlaceholderAPI]
+
+commands:
+  board:

@@ -1,0 +1,42 @@
+TITLE: # If you add more title lines, it'll be animated
+  - "&6&lzBoard &7(v1.0)"
+
+ADDITIONS:
+  COMBAT: "&fCombat: &c%cooldown%s"
+  PEARL: "&fPearl: &d%cooldown%s"
+
+GLOBAL-LINES:
+  - "&7&m----------------"
+  - "&fOnline: &6%online%"
+  - "&fKills: &6%kills%"
+  - "%pearl%"
+  - "%combat%"
+  - " "
+  - "%footer%"
+  - "&7&m----------------"
+
+FOOTER: # If you add more footer lines, it'll be animated
+  - "&6&owww.zboard.gg"
+
+COOLDOWNS: # Duration of cooldowns
+  PEARL: 16
+  COMBAT: 20
+
+HELP-MESSAGE:
+  - "&7&m----------------"
+  - "&6/board reload"
+  - "&7&m----------------"
+
+BLOCKED-WORLDS: # In these worlds, there will be no sidebar
+  - "blocked_world"
+
+BLOCKED-COMBAT-COMMANDS: # Commands that won't function during in combat ("*" stands for all commands)
+  - "*"
+  - "spawn"
+
+RESET-COOLDOWNS-ON-DEATH: true # Clear all active cooldowns on death
+
+RELOAD-MESSAGE: "&aScoreboard lines successfully reloaded."
+NO-PERMISSION: "&cYou don't have permission to run this command."
+COMMAND-BLOCKED: "&cYou cannot use this command during combat."
+ON-COOLDOWN: "&cYou can use pearl again in %cooldown% seconds."
